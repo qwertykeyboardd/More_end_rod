@@ -8,7 +8,7 @@ public class ElectricRodMaterial implements ToolMaterial {
     public static normalRodMaterial INSTANCE = new normalRodMaterial();
     @Override
     public int getDurability() {
-        return 2000;
+        return 50000;
     }
 
     @Override
